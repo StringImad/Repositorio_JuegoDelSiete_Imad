@@ -4,10 +4,26 @@
  */
 package maralboran.imad.juegodelsiete;
 
+import java.util.Random;
+
 /**
  *
  * @author imad
  */
-public class Programa {
-    
+public class ProgramaJuegoDelSiete {
+
+    public static void main(String[] args) {
+        //Declaracion de variables
+        int jugadorUno,
+                jugadorDos,
+                contadorRondas,
+                aleatorioJugadorUno,
+                aleatorioJugadorDos;
+        //Declaracion de objetos
+        Random aleatorio = new Random();
+        for (int i = 0; i < 5; i++) {
+
+        }
+
+    }
 }
